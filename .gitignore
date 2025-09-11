@@ -1,0 +1,36 @@
+# -----------------------
+# Python cache / artifacts
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# -----------------------
+# Checkpoints & training outputs
+# -----------------------
+checkpoint-*/
+runs/
+saved_model/
+whisper_generate_saved_model/
+output_mp4.zip
+
+# -----------------------
+# Large model files
+# -----------------------
+model.safetensors
+pytorch_model.bin
+tf_model.h5
+whisper_small_hi.tflite
+whisper_small_hi_generate.tflite
+whisper-small-hindi-f16/
+whisper-small-hindi-final/
+
+# -----------------------
+# OS / editor files
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
